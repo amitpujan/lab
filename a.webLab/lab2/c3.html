@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form label input{
+            background-color: yellow;
+            color: blue;
+        
+        }
+        form label input:checked{
+            border: 5px solid black;
+        }
+      
+        .option:checked{
+            height: 20px;
+        }
+        input[type="text"]:invalid, textarea:invalid{
+            border: 1px solid red;
+        }
+        input[type="text"]:valid, textarea:valid{
+            border:1px solid green;
+        }
+    </style>
+</head>
+<body>
+    <form action="gojo.jpg">
+        <label>
+            <input type="text">
+        </label>
+        <label class="option1"><br>
+            okiee<input type="checkbox" class="option"><br>
+           dokee <input type="checkbox" class="option"><br>
+            yepp<input type="checkbox" class="option"><br>
+           yooo <input type="checkbox" class="option"><br>
+        </label>
+        <textarea name="okk" id="check" cols="30" rows="10"></textarea>
+    </form>
+</body>
+</html>

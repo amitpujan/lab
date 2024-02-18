@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Internal CSS for styling the nested list */
+        ul {
+            list-style-type: square;
+            margin-left:20px ;
+            padding: 0;
+        }
+
+        li {
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+
+        /* Nested list styles */
+        ul ul {
+            list-style-type: circle;
+            margin-left: 20px;
+        }
+
+        ul ul ul {
+            list-style-type: disc;
+            margin-left: 40px;
+        }
+    </style>
+    <title>Nested List Example</title>
+</head>
+<body>
+
+    <h2>Nested List Example</h2>
+
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2
+            <ul>
+                <li>Subitem 2.1</li>
+                <li>Subitem 2.2
+                    <ul>
+                        <li>Subsubitem 2.2.1</li>
+                        <li>Subsubitem 2.2.2</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>Item 3</li>
+    </ul>
+
+</body>
+</html>
